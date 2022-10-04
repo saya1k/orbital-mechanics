@@ -98,6 +98,7 @@ if __name__ == '__main__':
 	
 	#initial conditions
 	y0 = r0+v0
+	ts[0] = 0
 	ys[0] = np.array(y0)
 	step = 1
 	
